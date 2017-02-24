@@ -38,4 +38,6 @@ let double x = 2 * x
 ok. that enough for now.
 
 
+some parts of realization is based on [coffeescript](https://github.com/jashkenas/coffeescript) code (really, not bad refference).
+
 [Arseniy Maximov](http://notarseniy.ru), 2017 ©
