@@ -1,10 +1,16 @@
-# SIMD Lang
+# nlng
 
 *Fun playing with [jison](http://jison.org/).*
 
 The purpose of this "language" is to implement [JavaScript SIMD](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SIMD) into some unnecessary syntax and to learn jison. And also for fun.
 
 Or probably, make my own Haskell!
+
+## TODO
+- [x] Basic learning of CoffeeScript parser
+- [ ] Make proof-of-concept compiler
+- [ ] Add basic syntax
+- [ ] Conquer the world
 
 ## Proposed syntax
 **Comments**
@@ -26,7 +32,7 @@ let tuple = (True, 1)
 ```
 **Functions**
 ```
-double x = 2 * x
+let double x = 2 * x
 ```
 
 ok. that enough for now.

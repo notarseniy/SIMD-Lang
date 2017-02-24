@@ -1,0 +1,9 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "es5"
+  }
+}
