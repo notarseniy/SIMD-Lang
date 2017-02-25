@@ -46,9 +46,8 @@ function o(patternString, action?, options?) {
 
 const grammar = {
   Hello: [
-    o('HELLO', function () { 
-      return new N.LiteralHello
-    })
+    o('', () => { }),
+    o('HELLO', () => { return new N.LiteralHello })
   ]
 };
 
@@ -88,8 +87,6 @@ for (name in grammar) {
   })();
 }
 
-console.log('GRAMMAR:', grammar);
-
 // Initialize the **Parser** with our list of terminal **tokens**, our **grammar**
 // rules, and the name of the root. Reverse the operators because Jison orders
 // precedence from low to high, and we have it high to low
@@ -99,6 +96,3 @@ export const parser = new Parser({
   bnf         : grammar,
   operators   : operators.reverse()
 });
-
-console.log('PARSER:', parser);
-console.log('------------------------------');

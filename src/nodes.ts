@@ -297,7 +297,6 @@ export class Literal extends Base {
   }
 }
 
-
 export class LiteralHello extends Literal {
   constructor() {
     super('console.log("Hello, world!")');

@@ -1,1 +1,1 @@
-export declare function compile(code: string, options: any): void;
+export declare function compile(code: string, options: any): string;

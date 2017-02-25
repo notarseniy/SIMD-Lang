@@ -57,17 +57,13 @@ export function compile(code = 'hello', options) {
 
   let tokens = lexer.tokenize(code, options);
 
-  console.log('TOKENS:', tokens, parser.parse(tokens));
   let fragments = parser.parse(tokens).compileToFragments(options);
-  console.log('FRAGMENTS:', fragments);
   let currentLine = 0;
   code = "";
 
   for (let i = 0, len = fragments.length; i < len; i++) {
-    console.log('code: ', fragments, fragments[i], i);
     code += fragments[i].code;
   }
    
-  console.log('\n\n\n')
-  eval(code);
+  return code;
 }

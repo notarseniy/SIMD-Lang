@@ -55,12 +55,10 @@ export class Lexer {
     
     let i = 0;
 
-    console.log('before', code, this);
 
     while (this.chunk = code.slice(i)) {
       let consumed = this.helloToken();
 
-      console.log('inwhile', this.chunk, consumed);
       // Update position
       [this.chunkLine, this.chunkColumn] = this.getLineAndColumnFromChunk(consumed);
 
@@ -139,7 +137,6 @@ export class Lexer {
   helloToken() {
     let match, input, id, colon;
     // if no
-    console.log(HELLO.exec(this.chunk));
     if (!(match = HELLO.exec(this.chunk))) return 0;
 
     let token = this.makeToken('HELLO', 'hello');
