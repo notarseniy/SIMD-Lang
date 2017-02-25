@@ -8,7 +8,7 @@ Or probably, make my own Haskell!
 
 ## TODO
 - [x] Basic learning of CoffeeScript parser
-- [ ] Make proof-of-concept compiler
+- [x] Make proof-of-concept compiler
 - [ ] Add basic syntax
 - [ ] Conquer the world
 

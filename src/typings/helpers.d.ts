@@ -1,0 +1,15 @@
+export declare function starts(string: any, literal: any, start: any): boolean;
+export declare function ends(string: any, literal: any, back: any): boolean;
+export declare function repeat(str: any, n: any): string;
+export declare function compact(array: any): any;
+export declare function count(string: any, substr: any): any;
+export declare function merge(options: any, overrides: any): any;
+export declare function extend(object: any, properties: any): any;
+export declare function flatten(array: any): any;
+export declare function del(obj: any, key: any): any;
+declare let ref: any;
+export { ref as some };
+export declare function invertLiterate(code: any): string;
+export declare function addLocationDataFn(first: any, last: any): (obj: any) => any;
+export declare function locationDataToString(obj: any): string;
+export declare function nameWhitespaceCharacter(string: any): any;

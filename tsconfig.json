@@ -1,5 +1,9 @@
 {
   "include": [
+    "src/grammar.ts",
+    "src/**/*"
+  ],
+  "filesGlob": [
     "src/**/*"
   ],
   "compilerOptions": {
