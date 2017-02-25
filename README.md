@@ -9,7 +9,8 @@ Or probably, make my own Haskell!
 ## TODO
 - [x] Basic learning of CoffeeScript parser
 - [x] Make proof-of-concept compiler
-- [ ] Add basic syntax
+- [ ] Implement scope system
+- [ ] Implement basic syntax from 'Proposed syntax'
 - [ ] Conquer the world
 
 ## Proposed syntax
