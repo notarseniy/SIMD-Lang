@@ -9,13 +9,16 @@ Or probably, make my own Haskell! (nope, this is really bad joke)
 ## TODO
 - [x] Basic learning of CoffeeScript parser
 - [x] Make proof-of-concept compiler
+- [x] Basic binary
+- [ ] File loader
 - [ ] Implement basic syntax from 'Proposed syntax'
 - [ ] Scope system
 - [ ] Type system
-- [ ] File loader
 - [ ] REPL
 - [ ] Loops & if's
 - [ ] Error system
+
+- [ ] Add ramda as stdlib
 - [ ] Refactor and write some coffeescript's parts
 - [ ] Implement basic algorithms and structures in this lang
 - [ ] Conquer the world
