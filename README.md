@@ -50,7 +50,7 @@ double 1 = 2
 double 2 = 4
 ```
 
-See `docs` folder for more info about syntax.
+See `docs` folder for more info about syntax. Also dig into `docs/coffeescript_nodes` for diagram of CoffeeScript nodes.
 
 some parts of realization is based on [coffeescript](https://github.com/jashkenas/coffeescript) code (really, not bad refference).
 
