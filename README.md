@@ -18,12 +18,12 @@ Or probably, make my own Haskell! (nope, this is really bad joke)
 
 ## Proposed syntax
 **Comments**
-```
+```haskell
 -- inline comment
 {- block comment -}
 ```
 **Types**
-```
+```haskell
 -- both are Number type
 integer = 1
 float = 1.0
@@ -42,7 +42,7 @@ tuple = (1, 2, 3, 4)
 record = {True, 1}
 ```
 **Functions**
-```
+```haskell
 double x = 2 * x
 
 -- how about pattern matching?

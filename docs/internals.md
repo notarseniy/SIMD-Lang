@@ -58,7 +58,7 @@ let record = { a: true, b: 1 };
 Simple example.
 
 **nlng code**
-```haskell ← this is very funny, isn't it?
+```haskell
 double x = 2 * x
 ```
 **javascript output**
