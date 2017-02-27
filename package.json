@@ -1,7 +1,6 @@
 {
   "name": "nlng",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.4",
   "main": "lib/index.js",
   "scripts": {
     "build": "gulp",
