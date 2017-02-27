@@ -16,6 +16,7 @@ Or probably, make my own Haskell! (nope, this is really bad joke)
 - [ ] REPL
 - [ ] Loops & if's
 - [ ] Error system
+- [ ] Refactor and write some coffeescript's parts
 - [ ] Implement basic algorithms and structures in this lang
 - [ ] Conquer the world
 
@@ -53,8 +54,14 @@ double 1 = 2
 double 2 = 4
 ```
 
-See `docs` folder for more info about syntax. Also dig into `docs/coffeescript_nodes` for diagram of CoffeeScript nodes.
+## Tests & Documentation
 
-some parts of realization is based on [coffeescript](https://github.com/jashkenas/coffeescript) code (really, not bad refference).
+**Tests** are in [`test`](https://github.com/notarseniy/nlng/blob/master/test) folder. Run `npm test` for god's sake!
 
-[Arseniy Maximov](http://notarseniy.ru), 2017 ©
+
+See [`docs`](https://github.com/notarseniy/nlng/tree/master/docs) folder for more info on syntax and internals. Also dig into [`docs/coffeescript_nodes`](https://github.com/notarseniy/nlng/blob/master/docs/coffeescript_nodes.svg) for diagram of CoffeeScript nodes (AST of this language is based on CS).
+
+Some parts of «language» is based on [coffeescript](https://github.com/jashkenas/coffeescript) code (really, not bad refference).
+
+[Arseniy Maximov](http://notarseniy.ru), 2017 ©<br>
+*(and CoffeeScript contributors)*
