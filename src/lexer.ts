@@ -1,10 +1,22 @@
 //import {Rewriter, INVERSES} from './rewriter';
 import {count, starts, compact, repeat, invertLiterate,
-locationDataToString} from './helpers';
+locationDataToString, debug} from './helpers';
 
+const DEBUG = process.env.NODE_ENV === 'development';
+
+/* Hello token */
 const HELLO = /hello/;
 
+/* Comment token */
+const COMMENT = /^{-([^#][\s\S]*?)(?:{-[^\n\S]*|-}$)|^(?:\s*(--).*)+}/;
+// because ecmascript
+const COMMENT_ILLEGAL = /\*\//;
+
+const BOOL = ['TRUE', 'FALSE'];
+
 const BOM = 65279;
+
+const MULTI_DENT = /^(?:\n[^\n\S]*)+/
 
 const TRAILING_SPACES = /\s+$/;
 const WHITESPACE = /^[^\n\S]+/;
@@ -47,17 +59,26 @@ export class Lexer {
   }
 
   tokenize(code: string, opts: any = {}) {
-    this.literate   = opts.literate;  // Are we lexing literate CoffeeScript?
+    this.literate   = opts.literate;  // Are we lexing literate?
     this.chunkLine  = opts.line || this.chunkLine;             // The start line for the current this.chunk.
     this.chunkColumn = opts.column || this.chunkColumn;           // The start column of the current this.chunk.
 
     code = this.clean(code);           // The stripped, cleaned original source code.
     
+    debug('lexer.tokenize :: code', code);
+
     let i = 0;
 
+    debugger;
 
     while (this.chunk = code.slice(i)) {
-      let consumed = this.helloToken();
+      debug('lexer.tokenize :: this.chunk', i, this.chunk);
+      let consumed = (
+        this.commentToken() ||
+        this.helloToken()
+      );
+
+      debug('lexer.tokenize :: consumed', consumed);
 
       // Update position
       [this.chunkLine, this.chunkColumn] = this.getLineAndColumnFromChunk(consumed);
@@ -126,22 +147,59 @@ export class Lexer {
 
   token(tag, value, offsetInChunk?, length?, origin?) {
     let token: any = this.makeToken(tag, value, offsetInChunk, length);
+    
     if (origin) token.origin = origin;
+    
     this.tokens.push(token);
+
     return token;
   }
 
 
-  // TOKENS
+  /* TOKENS */
   
-  helloToken() {
+  // 'hello' token
+  private helloToken() {
     let match, input, id, colon;
     // if no
     if (!(match = HELLO.exec(this.chunk))) return 0;
 
     let token = this.makeToken('HELLO', 'hello');
     this.tokens.push(token);
+
     return match[0].length;
+  }
+
+  // comments token
+  private commentToken() {
+    let match;
+
+    debug('lexer.commentToken :: this.chunk', this.chunk);
+    
+    if (!(match = this.chunk.match(COMMENT))) return 0;
+
+    debug('lexer.commentToken :: match', match);
+
+    var [comment, here] = match;
+
+    if (here) {
+      if (match = COMMENT_ILLEGAL.exec(comment)) {
+        // FIXME: Implement errors
+        /*this.error(
+          `block comments cannot contain ${match[0]}`,
+          {
+            offset: match.index,
+            length: match[0].length
+          }
+        );*/
+      }
+      if (here.indexOf('\n') >= 0) {
+        here = here.replace(RegExp("\\n" + (repeat(' ', this.indent)), "g"), '\n');
+      }
+      this.token('THISISCOMMENT', here, 0, comment.length)
+    }
+
+    return comment.length;
   }
 
 }

@@ -46,8 +46,10 @@ function o(patternString, action?, options?) {
 
 const grammar = {
   Hello: [
-    o('', () => { }),
     o('HELLO', () => { return new N.LiteralHello })
+  ],
+  Comment: [
+    o('THISISCOMMENT', () => { return new N.Comment($1); }
   ]
 };
 

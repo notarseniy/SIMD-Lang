@@ -23,5 +23,6 @@ export declare class Lexer {
     getLineAndColumnFromChunk(offset: any): any[];
     makeToken(tag: any, value: any, offsetInChunk?: number, length?: any): any[];
     token(tag: any, value: any, offsetInChunk?: any, length?: any, origin?: any): any;
-    helloToken(): any;
+    private helloToken();
+    private commentToken();
 }

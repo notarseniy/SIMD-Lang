@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+const helpers = require('../test/helpers.js');
+const nlng = require('../lib/nlng');
+const vm = require('vm');
+
+const args = require('minimist')(process.argv.slice(2))
+
+if (!args._[0]) return console.error('ERROR: Provide a filename to compile!');
+
+const nlngFile = helpers.readFile(process.cwd() + '/' + args._[0]);
+
+const compiled = nlng.compile(nlngFile);
+
+// --js — only compile to js, do not run
+if (args.js) {
+  console.log(compiled);
+  return;
+}
+
+// default: compile & run
+
+vm.runInThisContext(compiled)

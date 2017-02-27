@@ -15,6 +15,7 @@ Or probably, make my own Haskell! (nope, this is really bad joke)
 - [ ] File loader
 - [ ] REPL
 - [ ] Loops & if's
+- [ ] Error system
 - [ ] Implement basic algorithms and structures in this lang
 - [ ] Conquer the world
 

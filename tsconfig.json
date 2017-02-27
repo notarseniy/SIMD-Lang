@@ -1,7 +1,8 @@
 {
   "include": [
     "src/grammar.ts",
-    "src/**/*"
+    "src/**/*",
+    "!src/repl.ts"
   ],
   "filesGlob": [
     "src/**/*"

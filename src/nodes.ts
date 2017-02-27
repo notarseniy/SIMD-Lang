@@ -20,6 +20,14 @@ const NO      = function(o?) { return false };
 const THIS    = function(o?) { return this };
 const NEGATE  = function(o?) { this.negated = !this.negated; return this };
 
+// Helpers
+
+function multident(code, tab) {
+  code = code.replace(/\n/g, '$&' + tab);
+  return code.replace(/\s+$/, '');
+}
+
+
 
 // The various nodes defined below all compile to a collection of **CodeFragment** objects.
 // A CodeFragments is a block of generated code, and the location in the source file where the code
@@ -300,5 +308,29 @@ export class Literal extends Base {
 export class LiteralHello extends Literal {
   constructor() {
     super('console.log("Hello, world!")');
+  }
+}
+
+export class Comment extends Base {
+  comment;
+  tab;
+
+  constructor(comment) {
+    super();
+    this.comment = comment;
+  }
+
+  isStatement: boolean     = false
+  makeReturn()      { return this }
+
+  compileNode(o, level) {
+    let comment = this.comment.replace(/^(\s*)#(?=\s)/gm, "$1 *");
+    let code = "/*" + (multident(comment, this.tab)) + ([].indexOf.call(comment, '\n') >= 0 ? "\n" + this.tab : '') + " */";
+
+    if ((level || o.level) === LEVEL_TOP) {
+      code = o.indent + code;
+    }
+
+    return [this.makeCode("\n"), this.makeCode(code)];
   }
 }

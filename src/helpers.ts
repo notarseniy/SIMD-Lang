@@ -120,6 +120,48 @@ export function invertLiterate(code) {
   return lines.join('\n');
 }
 
+export function throwSyntaxError(message, location) {
+  let error: any = new SyntaxError(message);
+  error.location = location;
+  error.toString = syntaxErrorToString;
+
+  error.stack = error.toString();
+
+  throw error;
+}
+
+// FIXME: refactor
+export function syntaxErrorToString() {
+  var codeLine, colorize, colorsEnabled, end, filename, first_column, first_line, last_column, last_line, marker, ref1, ref2, ref3, ref4, start;
+  if (!(this.code && this.location)) {
+    return Error.prototype.toString.call(this);
+  }
+  ref1 = this.location, first_line = ref1.first_line, first_column = ref1.first_column, last_line = ref1.last_line, last_column = ref1.last_column;
+  if (last_line == null) {
+    last_line = first_line;
+  }
+  if (last_column == null) {
+    last_column = first_column;
+  }
+  filename = this.filename || '[stdin]';
+  codeLine = this.code.split('\n')[first_line];
+  start = first_column;
+  end = first_line === last_line ? last_column + 1 : codeLine.length;
+  marker = codeLine.slice(0, start).replace(/[^\s]/g, ' ') + repeat('^', end - start);
+  if (typeof process !== "undefined" && process !== null) {
+    colorsEnabled = ((ref2 = process.stdout) != null ? ref2.isTTY : void 0) && !((ref3 = process.env) != null ? ref3.NODE_DISABLE_COLORS : void 0);
+  }
+  if ((ref4 = this.colorful) != null ? ref4 : colorsEnabled) {
+    colorize = function(str) {
+      return "\x1B[1;31m" + str + "\x1B[0m";
+    };
+    codeLine = codeLine.slice(0, start) + colorize(codeLine.slice(start, end)) + codeLine.slice(end);
+    marker = colorize(marker);
+  }
+  return filename + ":" + (first_line + 1) + ":" + (first_column + 1) + ": error: " + this.message + "\n" + codeLine + "\n" + marker;
+}
+
+
 // Merge two jison-style location data objects together.
 // If `last` is not provided, this will simply return `first`.
 function buildLocationData(first, last) {
@@ -170,5 +212,12 @@ export function nameWhitespaceCharacter(string) {
     case '\r': return 'carriage return';
     case '\t': return 'tab';
     default: return string;
+  }
+}
+
+// our own debug function
+export function debug(...args: any[]) {
+  if (process.env.NODE_ENV === 'development') {
+    return console.log.apply(this, arguments);
   }
 }

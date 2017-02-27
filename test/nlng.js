@@ -1,5 +1,5 @@
 const helpers = require('./helpers.js');
-const nlng = require('../lib/main');
+const nlng = require('../lib/nlng');
 
 function H(filename, excepted) {
   return function () {
@@ -16,8 +16,10 @@ function H(filename, excepted) {
 
 describe('nlng', function () {
   describe('#.compile()', function () {
-    it('should return "console.log(Hello, world!)" when code is "hello"', H('hello'));
+    it('hello statement', H('hello'));
 
-    it('should return "" when code is empty', H('empty'));
+    it('empty code', H('empty'));
+
+    it('comments', H('comments'))
   });
 });

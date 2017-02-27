@@ -46,3 +46,11 @@ export declare class Literal extends Base {
 export declare class LiteralHello extends Literal {
     constructor();
 }
+export declare class Comment extends Base {
+    comment: any;
+    tab: any;
+    constructor(comment: any);
+    isStatement: boolean;
+    makeReturn(): this;
+    compileNode(o: any, level: any): CodeFragment[];
+}
