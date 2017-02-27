@@ -3,371 +3,370 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 4318 691" style="enable-background:new 0 0 4318 691;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st2{stroke:#000000;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;stroke:#000000;}
-	.st4{font-family:'Helvetica';}
-	.st5{font-size:12px;}
-	.st6{font-size:11px;}
-	.st7{font-size:10px;}
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;}
+	.st3{font-family:'Helvetica';}
+	.st4{font-size:12px;}
+	.st5{font-size:11px;}
+	.st6{font-size:10px;}
 </style>
 <g transform="translate(0.5,0.5)">
-	<path pointer-events="none" class="st1" d="M710,120v84.6"/>
-	<path pointer-events="none" class="st2" d="M710,209.9l-3.5-7l3.5,1.8l3.5-1.8L710,209.9z"/>
-	<path pointer-events="none" class="st1" d="M545,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M710,79l-3.5-7l3.5,1.8l3.5-1.8L710,79z"/>
-	<rect x="665" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M710,120v84.6"/>
+	<path pointer-events="none" class="st1" d="M710,209.9l-3.5-7l3.5,1.8l3.5-1.8L710,209.9z"/>
+	<path pointer-events="none" class="st0" d="M545,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M710,79l-3.5-7l3.5,1.8l3.5-1.8L710,79z"/>
+	<rect x="665" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(693.5,90.5)">
-		<text transform="matrix(1 0 0 1 5.6641 15)" class="st4 st5">Call</text>
+		<text transform="matrix(1 0 0 1 5.6641 15)" class="st3 st4">Call</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M667,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M832,79l-3.5-7l3.5,1.8l3.5-1.8L832,79z"/>
-	<rect x="787" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M667,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M832,79l-3.5-7l3.5,1.8l3.5-1.8L832,79z"/>
+	<rect x="787" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(798.5,90.5)">
-		<text transform="matrix(1 0 0 1 11.3203 15)" class="st4 st5">Extends</text>
+		<text transform="matrix(1 0 0 1 11.3203 15)" class="st3 st4">Extends</text>
 	</g>
-	<rect x="520" y="211" pointer-events="none" class="st3" width="380" height="140"/>
-	<rect x="522" y="213" pointer-events="none" class="st3" width="376" height="136"/>
-	<rect x="555" y="287" pointer-events="none" class="st3" width="140" height="40"/>
+	<rect x="520" y="211" pointer-events="none" class="st2" width="380" height="140"/>
+	<rect x="522" y="213" pointer-events="none" class="st2" width="376" height="136"/>
+	<rect x="555" y="287" pointer-events="none" class="st2" width="140" height="40"/>
 	<g transform="translate(526.5,297.5)">
-		<text transform="matrix(1 0 0 1 31.96 15.0002)" class="st4 st5">RegexWithInterpolations</text>
+		<text transform="matrix(1 0 0 1 31.96 15.0002)" class="st3 st4">RegexWithInterpolations</text>
 	</g>
-	<rect x="665" y="231" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="665" y="231" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(669.5,241.5)">
-		<text transform="matrix(1 0 0 1 13.6533 15)" class="st4 st5">SuperCall</text>
+		<text transform="matrix(1 0 0 1 13.6533 15)" class="st3 st4">SuperCall</text>
 	</g>
-	<rect x="730" y="287" pointer-events="none" class="st3" width="140" height="40"/>
+	<rect x="730" y="287" pointer-events="none" class="st2" width="140" height="40"/>
 	<g transform="translate(717.5,297.5)">
-		<text transform="matrix(1 0 0 1 27.6338 15)" class="st4 st5">TaggedTemplateCall</text>
+		<text transform="matrix(1 0 0 1 27.6338 15)" class="st3 st4">TaggedTemplateCall</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M115,20h75v53.6"/>
-	<path pointer-events="none" class="st2" d="M190,78.9l-3.5-7l3.5,1.8l3.5-1.8L190,78.9z"/>
-	<rect x="145" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M115,20h75v53.6"/>
+	<path pointer-events="none" class="st1" d="M190,78.9l-3.5-7l3.5,1.8l3.5-1.8L190,78.9z"/>
+	<rect x="145" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(164.5,90.5)">
-		<text transform="matrix(1 0 0 1 8.6582 15)" class="st4 st5">Literal</text>
+		<text transform="matrix(1 0 0 1 8.6582 15)" class="st3 st4">Literal</text>
 	</g>
-	<rect y="210" pointer-events="none" class="st3" width="380" height="340"/>
-	<rect x="2" y="212" pointer-events="none" class="st3" width="376" height="336"/>
-	<rect x="145" y="241" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect y="210" pointer-events="none" class="st2" width="380" height="340"/>
+	<rect x="2" y="212" pointer-events="none" class="st2" width="376" height="336"/>
+	<rect x="145" y="241" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(138.5,251.5)">
-		<text transform="matrix(1 0 0 1 17.3174 15)" class="st4 st5">InfinityLiteral</text>
+		<text transform="matrix(1 0 0 1 17.3174 15)" class="st3 st4">InfinityLiteral</text>
 	</g>
-	<rect x="25" y="241" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="25" y="241" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(12.5,251.5)">
-		<text transform="matrix(1 0 0 1 19.3184 15)" class="st4 st5">NumberLiteral</text>
+		<text transform="matrix(1 0 0 1 19.3184 15)" class="st3 st4">NumberLiteral</text>
 	</g>
-	<rect x="25" y="301" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="25" y="301" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(26.5,311.5)">
-		<text transform="matrix(1 0 0 1 14.6553 15)" class="st4 st5">NaNLiteral</text>
+		<text transform="matrix(1 0 0 1 14.6553 15)" class="st3 st4">NaNLiteral</text>
 	</g>
-	<rect x="145" y="301" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="145" y="301" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(141.5,311.5)">
-		<text transform="matrix(1 0 0 1 15.9844 15)" class="st4 st5">StringLiteral</text>
+		<text transform="matrix(1 0 0 1 15.9844 15)" class="st3 st4">StringLiteral</text>
 	</g>
-	<rect x="265" y="241" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="265" y="241" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(258.5,251.5)">
-		<text transform="matrix(1 0 0 1 17.3145 15)" class="st4 st5">RegexLiteral</text>
+		<text transform="matrix(1 0 0 1 17.3145 15)" class="st3 st4">RegexLiteral</text>
 	</g>
-	<rect x="265" y="301" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="265" y="301" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(237.5,311.5)">
-		<text transform="matrix(1 0 0 1 28.9238 14.5002)" class="st4 st6">PassthoughLiteral</text>
+		<text transform="matrix(1 0 0 1 28.9238 14.5002)" class="st3 st5">PassthoughLiteral</text>
 	</g>
-	<rect x="25" y="361" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="25" y="361" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(10.5,371.5)">
-		<text transform="matrix(1 0 0 1 19.6455 15)" class="st4 st5">IdentifierLiteral</text>
+		<text transform="matrix(1 0 0 1 19.6455 15)" class="st3 st4">IdentifierLiteral</text>
 	</g>
-	<rect x="145" y="361" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="145" y="361" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(131.5,371.5)">
-		<text transform="matrix(1 0 0 1 19.3193 15)" class="st4 st5">PropertyName</text>
+		<text transform="matrix(1 0 0 1 19.3193 15)" class="st3 st4">PropertyName</text>
 	</g>
-	<rect x="265" y="361" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="265" y="361" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(243.5,371.5)">
-		<text transform="matrix(1 0 0 1 22.3096 15)" class="st4 st5">StatementLiteral</text>
+		<text transform="matrix(1 0 0 1 22.3096 15)" class="st3 st4">StatementLiteral</text>
 	</g>
-	<rect x="25" y="421" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="25" y="421" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(27.5,431.5)">
-		<text transform="matrix(1 0 0 1 14.3232 15)" class="st4 st5">ThisLiteral</text>
+		<text transform="matrix(1 0 0 1 14.3232 15)" class="st3 st4">ThisLiteral</text>
 	</g>
-	<rect x="145" y="421" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="145" y="421" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(123.5,431.5)">
-		<text transform="matrix(1 0 0 1 22.3037 15)" class="st4 st5">UndefinedLiteral</text>
+		<text transform="matrix(1 0 0 1 22.3037 15)" class="st3 st4">UndefinedLiteral</text>
 	</g>
-	<rect x="265" y="421" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="265" y="421" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(269.5,431.5)">
-		<text transform="matrix(1 0 0 1 13.3223 15)" class="st4 st5">NullLiteral</text>
+		<text transform="matrix(1 0 0 1 13.3223 15)" class="st3 st4">NullLiteral</text>
 	</g>
-	<rect x="145" y="481" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="145" y="481" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(131.5,491.5)">
-		<text transform="matrix(1 0 0 1 19.6387 15)" class="st4 st5">BooleanLiteral</text>
+		<text transform="matrix(1 0 0 1 19.6387 15)" class="st3 st4">BooleanLiteral</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M190,120v30v53.6"/>
-	<path pointer-events="none" class="st2" d="M190,208.9l-3.5-7l3.5,1.8l3.5-1.8L190,208.9z"/>
-	<rect x="26" y="0" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M190,120v30v53.6"/>
+	<path pointer-events="none" class="st1" d="M190,208.9l-3.5-7l3.5,1.8l3.5-1.8L190,208.9z"/>
+	<rect x="26" y="0" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(49.5,10.5)">
-		<text transform="matrix(1 0 0 1 7.3242 15)" class="st4 st5">Base</text>
+		<text transform="matrix(1 0 0 1 7.3242 15)" class="st3 st4">Base</text>
 	</g>
-	<rect x="26" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="26" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(48.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.3281 15)" class="st4 st5">Block</text>
+		<text transform="matrix(1 0 0 1 7.3281 15)" class="st3 st4">Block</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M71,40v33.6"/>
-	<path pointer-events="none" class="st2" d="M71,78.9l-3.5-7l3.5,1.8l3.5-1.8L71,78.9z"/>
-	<path pointer-events="none" class="st1" d="M787,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M952,79l-3.5-7l3.5,1.8l3.5-1.8L952,79z"/>
-	<rect x="907" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M71,40v33.6"/>
+	<path pointer-events="none" class="st1" d="M71,78.9l-3.5-7l3.5,1.8l3.5-1.8L71,78.9z"/>
+	<path pointer-events="none" class="st0" d="M787,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M952,79l-3.5-7l3.5,1.8l3.5-1.8L952,79z"/>
+	<rect x="907" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(922.5,90.5)">
-		<text transform="matrix(1 0 0 1 9.6611 15)" class="st4 st5">Access</text>
+		<text transform="matrix(1 0 0 1 9.6611 15)" class="st3 st4">Access</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M907,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1071.9,79l-3.5-7l3.5,1.8l3.5-1.8L1071.9,79z"/>
-	<rect x="1027" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M907,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1071.9,79l-3.5-7l3.5,1.8l3.5-1.8L1071.9,79z"/>
+	<rect x="1027" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1049.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.3223 15)" class="st4 st5">Index</text>
+		<text transform="matrix(1 0 0 1 7.3223 15)" class="st3 st4">Index</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1027,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1191.9,79l-3.5-7l3.5,1.8l3.5-1.8L1191.9,79z"/>
-	<rect x="1147" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1027,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1191.9,79l-3.5-7l3.5,1.8l3.5-1.8L1191.9,79z"/>
+	<rect x="1147" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1164.5,90.5)">
-		<text transform="matrix(1 0 0 1 9.3193 15)" class="st4 st5">Range</text>
+		<text transform="matrix(1 0 0 1 9.3193 15)" class="st3 st4">Range</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1147,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1311.9,79l-3.5-7l3.5,1.8l3.5-1.8L1311.9,79z"/>
-	<rect x="1267" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1147,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1311.9,79l-3.5-7l3.5,1.8l3.5-1.8L1311.9,79z"/>
+	<rect x="1267" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1291.5,90.5)">
-		<text transform="matrix(1 0 0 1 6.9951 15)" class="st4 st5">Slice</text>
+		<text transform="matrix(1 0 0 1 6.9951 15)" class="st3 st4">Slice</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1267,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1431.9,79l-3.5-7l3.5,1.8l3.5-1.8L1431.9,79z"/>
-	<rect x="1387" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1267,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1431.9,79l-3.5-7l3.5,1.8l3.5-1.8L1431.9,79z"/>
+	<rect x="1387" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1417.5,90.5)">
-		<text transform="matrix(1 0 0 1 4.6631 15)" class="st4 st5">Obj</text>
+		<text transform="matrix(1 0 0 1 4.6631 15)" class="st3 st4">Obj</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1387,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1551.9,79l-3.5-7l3.5,1.8l3.5-1.8L1551.9,79z"/>
-	<rect x="1507" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1387,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1551.9,79l-3.5-7l3.5,1.8l3.5-1.8L1551.9,79z"/>
+	<rect x="1507" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1539.5,90.5)">
-		<text transform="matrix(1 0 0 1 4.002 15)" class="st4 st5">Arr</text>
+		<text transform="matrix(1 0 0 1 4.002 15)" class="st3 st4">Arr</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1517,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1681.9,79l-3.5-7l3.5,1.8l3.5-1.8L1681.9,79z"/>
-	<rect x="1637" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1517,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1681.9,79l-3.5-7l3.5,1.8l3.5-1.8L1681.9,79z"/>
+	<rect x="1637" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1658.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.9971 15)" class="st4 st5">Class</text>
+		<text transform="matrix(1 0 0 1 7.9971 15)" class="st3 st4">Class</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1677,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1841.9,79l-3.5-7l3.5,1.8l3.5-1.8L1841.9,79z"/>
-	<path pointer-events="none" class="st1" d="M1842,120v20h-64v13.6"/>
-	<path pointer-events="none" class="st2" d="M1778,158.9l-3.5-7l3.5,1.8l3.5-1.8L1778,158.9z"/>
-	<rect x="1797" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1677,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1841.9,79l-3.5-7l3.5,1.8l3.5-1.8L1841.9,79z"/>
+	<path pointer-events="none" class="st0" d="M1842,120v20h-64v13.6"/>
+	<path pointer-events="none" class="st1" d="M1778,158.9l-3.5-7l3.5,1.8l3.5-1.8L1778,158.9z"/>
+	<rect x="1797" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1766.5,90.5)">
-		<text transform="matrix(1 0 0 1 -71.0713 15)" class="st4 st5">&lt;font style=&quot;font-size: 11px&quot;&gt;ModuleDeclaration&lt;/font&gt;</text>
+		<text transform="matrix(1 0 0 1 29.9287 15)" class="st3 st5">ModuleDeclaration</text>
 	</g>
-	<rect x="1733" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="1733" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1706.5,170.5)">
-		<text transform="matrix(1 0 0 1 29.5 14.0002)" class="st4 st6">ImportDeclaration</text>
+		<text transform="matrix(1 0 0 1 29.5 14.0002)" class="st3 st5">ImportDeclaration</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1835,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M1999.9,79l-3.5-7l3.5,1.8l3.5-1.8L1999.9,79z"/>
-	<rect x="1955" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1835,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M1999.9,79l-3.5-7l3.5,1.8l3.5-1.8L1999.9,79z"/>
+	<rect x="1955" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1945.5,90.5)">
-		<text transform="matrix(1 0 0 1 18.3193 15)" class="st4 st5">ImportClause</text>
+		<text transform="matrix(1 0 0 1 18.3193 15)" class="st3 st4">ImportClause</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1910,200v34.6"/>
-	<path pointer-events="none" class="st2" d="M1910,239.9l-3.5-7l3.5,1.8l3.5-1.8L1910,239.9z"/>
-	<rect x="1865" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M1910,200v34.6"/>
+	<path pointer-events="none" class="st1" d="M1910,239.9l-3.5-7l3.5,1.8l3.5-1.8L1910,239.9z"/>
+	<rect x="1865" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(1837.5,170.5)">
-		<text transform="matrix(1 0 0 1 29.5 14.0002)" class="st4 st6">ExportDeclaration</text>
+		<text transform="matrix(1 0 0 1 29.5 14.0002)" class="st3 st5">ExportDeclaration</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1837,140h73v13.6"/>
-	<path pointer-events="none" class="st2" d="M1910,158.9l-3.5-7l3.5,1.8l3.5-1.8L1910,158.9z"/>
-	<rect x="1675" y="241" pointer-events="none" class="st3" width="470" height="79"/>
-	<rect x="1677" y="243" pointer-events="none" class="st3" width="466" height="75"/>
-	<rect x="1695" y="260" pointer-events="none" class="st3" width="130" height="40"/>
+	<path pointer-events="none" class="st0" d="M1837,140h73v13.6"/>
+	<path pointer-events="none" class="st1" d="M1910,158.9l-3.5-7l3.5,1.8l3.5-1.8L1910,158.9z"/>
+	<rect x="1675" y="241" pointer-events="none" class="st2" width="470" height="79"/>
+	<rect x="1677" y="243" pointer-events="none" class="st2" width="466" height="75"/>
+	<rect x="1695" y="260" pointer-events="none" class="st2" width="130" height="40"/>
 	<g transform="translate(1658.5,270.5)">
-		<text transform="matrix(1 0 0 1 39.9248 15.0002)" class="st4 st6">ExportNamedDeclaration</text>
+		<text transform="matrix(1 0 0 1 39.9248 15.0002)" class="st3 st5">ExportNamedDeclaration</text>
 	</g>
-	<rect x="1845" y="260" pointer-events="none" class="st3" width="130" height="40"/>
+	<rect x="1845" y="260" pointer-events="none" class="st2" width="130" height="40"/>
 	<g transform="translate(1809.5,270.5)">
-		<text transform="matrix(1 0 0 1 40.2559 15.0002)" class="st4 st6">ExportDefaultDeclaration</text>
+		<text transform="matrix(1 0 0 1 40.2559 15.0002)" class="st3 st5">ExportDefaultDeclaration</text>
 	</g>
-	<rect x="1995" y="260" pointer-events="none" class="st3" width="130" height="40"/>
+	<rect x="1995" y="260" pointer-events="none" class="st2" width="130" height="40"/>
 	<g transform="translate(1977.5,270.5)">
-		<text transform="matrix(1 0 0 1 33.5986 15)" class="st4 st6">ExportAllDeclaration</text>
+		<text transform="matrix(1 0 0 1 33.5986 15)" class="st3 st5">ExportAllDeclaration</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M1992,20h170v53.6"/>
-	<path pointer-events="none" class="st2" d="M2162,78.9l-3.5-7l3.5,1.8l3.5-1.8L2162,78.9z"/>
-	<rect x="2112" y="80" pointer-events="none" class="st3" width="100" height="40"/>
+	<path pointer-events="none" class="st0" d="M1992,20h170v53.6"/>
+	<path pointer-events="none" class="st1" d="M2162,78.9l-3.5-7l3.5,1.8l3.5-1.8L2162,78.9z"/>
+	<rect x="2112" y="80" pointer-events="none" class="st2" width="100" height="40"/>
 	<g transform="translate(2082.5,90.5)">
-		<text transform="matrix(1 0 0 1 -69.4033 15)" class="st4 st5">&lt;font style=&quot;font-size: 11px&quot;&gt;ModuleSpecifierList&lt;/font&gt;</text>
+		<text transform="matrix(1 0 0 1 31.5967 15)" class="st3 st5">ModuleSpecifierList</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2162,120v20h-63v13.6"/>
-	<path pointer-events="none" class="st2" d="M2099,158.9l-3.5-7l3.5,1.8l3.5-1.8L2099,158.9z"/>
-	<rect x="2054" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2162,120v20h-63v13.6"/>
+	<path pointer-events="none" class="st1" d="M2099,158.9l-3.5-7l3.5,1.8l3.5-1.8L2099,158.9z"/>
+	<rect x="2054" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2023.5,170.5)">
-		<text transform="matrix(1 0 0 1 34.5 13.0005)" class="st4 st7">ImportSpecifierList</text>
+		<text transform="matrix(1 0 0 1 34.5 13.0005)" class="st3 st6">ImportSpecifierList</text>
 	</g>
-	<rect x="2187" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="2187" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2156.5,170.5)">
-		<text transform="matrix(1 0 0 1 33.4922 13.0005)" class="st4 st7">ExportSpecifierList</text>
+		<text transform="matrix(1 0 0 1 33.4922 13.0005)" class="st3 st6">ExportSpecifierList</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2162,139h73v13.3"/>
-	<path pointer-events="none" class="st2" d="M2235,157.5l-3.5-7l3.5,1.8l3.5-1.8L2235,157.5z"/>
-	<path pointer-events="none" class="st1" d="M2147,20h215l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M2361.9,79l-3.5-7l3.5,1.8l3.5-1.8L2361.9,79z"/>
-	<rect x="2317" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2162,139h73v13.3"/>
+	<path pointer-events="none" class="st1" d="M2235,157.5l-3.5-7l3.5,1.8l3.5-1.8L2235,157.5z"/>
+	<path pointer-events="none" class="st0" d="M2147,20h215v53.7"/>
+	<path pointer-events="none" class="st1" d="M2361.9,79l-3.5-7l3.5,1.8l3.5-1.8L2361.9,79z"/>
+	<rect x="2317" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2296.5,90.5)">
-		<text transform="matrix(1 0 0 1 21.9775 15)" class="st4 st5">ModuleSpecifier</text>
+		<text transform="matrix(1 0 0 1 21.9775 15)" class="st3 st4">ModuleSpecifier</text>
 	</g>
-	<rect x="2317" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="2317" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2300.5,170.5)">
-		<text transform="matrix(1 0 0 1 20.6523 15)" class="st4 st5">ImportSpecifier</text>
+		<text transform="matrix(1 0 0 1 20.6523 15)" class="st3 st4">ImportSpecifier</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2362,120v33.6"/>
-	<path pointer-events="none" class="st2" d="M2362,158.9l-3.5-7l3.5,1.8l3.5-1.8L2362,158.9z"/>
-	<path pointer-events="none" class="st1" d="M2363,200v20h-72v13.6"/>
-	<path pointer-events="none" class="st2" d="M2291,238.9l-3.5-7l3.5,1.8l3.5-1.8L2291,238.9z"/>
-	<rect x="2237" y="240" pointer-events="none" class="st3" width="108" height="40"/>
+	<path pointer-events="none" class="st0" d="M2362,120v33.6"/>
+	<path pointer-events="none" class="st1" d="M2362,158.9l-3.5-7l3.5,1.8l3.5-1.8L2362,158.9z"/>
+	<path pointer-events="none" class="st0" d="M2363,200v20h-72v13.6"/>
+	<path pointer-events="none" class="st1" d="M2291,238.9l-3.5-7l3.5,1.8l3.5-1.8L2291,238.9z"/>
+	<rect x="2237" y="240" pointer-events="none" class="st2" width="108" height="40"/>
 	<g transform="translate(2201.5,250.5)">
-		<text transform="matrix(1 0 0 1 40.1553 14.0005)" class="st4 st7">ImportDefaultSpecifier</text>
+		<text transform="matrix(1 0 0 1 40.1553 14.0005)" class="st3 st6">ImportDefaultSpecifier</text>
 	</g>
-	<rect x="2367" y="240" pointer-events="none" class="st3" width="129" height="40"/>
+	<rect x="2367" y="240" pointer-events="none" class="st2" width="129" height="40"/>
 	<g transform="translate(2322.5,250.5)">
-		<text transform="matrix(1 0 0 1 49.1504 14.0002)" class="st4 st7">ImportNamespaceSpecifier</text>
+		<text transform="matrix(1 0 0 1 49.1504 14.0002)" class="st3 st6">ImportNamespaceSpecifier</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2363,219h73v13.3"/>
-	<path pointer-events="none" class="st2" d="M2436,237.5l-3.5-7l3.5,1.8l3.5-1.8L2436,237.5z"/>
-	<rect x="2451" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2363,219h73v13.3"/>
+	<path pointer-events="none" class="st1" d="M2436,237.5l-3.5-7l3.5,1.8l3.5-1.8L2436,237.5z"/>
+	<rect x="2451" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2434.5,170.5)">
-		<text transform="matrix(1 0 0 1 20.3154 15)" class="st4 st5">ExportSpecifier</text>
+		<text transform="matrix(1 0 0 1 20.3154 15)" class="st3 st4">ExportSpecifier</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2407,100h89v53.6"/>
-	<path pointer-events="none" class="st2" d="M2496,158.9l-3.5-7l3.5,1.8l3.5-1.8L2496,158.9z"/>
-	<path pointer-events="none" class="st1" d="M2297,20h285l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M2581.9,79l-3.5-7l3.5,1.8l3.5-1.8L2581.9,79z"/>
-	<rect x="2537" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2407,100h89v53.6"/>
+	<path pointer-events="none" class="st1" d="M2496,158.9l-3.5-7l3.5,1.8l3.5-1.8L2496,158.9z"/>
+	<path pointer-events="none" class="st0" d="M2297,20h285v53.7"/>
+	<path pointer-events="none" class="st1" d="M2581.9,79l-3.5-7l3.5,1.8l3.5-1.8L2581.9,79z"/>
+	<rect x="2537" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2554.5,90.5)">
-		<text transform="matrix(1 0 0 1 8.9912 15)" class="st4 st5">Assign</text>
+		<text transform="matrix(1 0 0 1 8.9912 15)" class="st3 st4">Assign</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2537,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M2701.9,79l-3.5-7l3.5,1.8l3.5-1.8L2701.9,79z"/>
-	<rect x="2657" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2537,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M2701.9,79l-3.5-7l3.5,1.8l3.5-1.8L2701.9,79z"/>
+	<rect x="2657" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2679.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.6562 15)" class="st4 st5">Code</text>
+		<text transform="matrix(1 0 0 1 7.6562 15)" class="st3 st4">Code</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2661,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M2825.9,79l-3.5-7l3.5,1.8l3.5-1.8L2825.9,79z"/>
-	<rect x="2781" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2661,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M2825.9,79l-3.5-7l3.5,1.8l3.5-1.8L2825.9,79z"/>
+	<rect x="2781" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2798.5,90.5)">
-		<text transform="matrix(1 0 0 1 9.3281 15)" class="st4 st5">Param</text>
+		<text transform="matrix(1 0 0 1 9.3281 15)" class="st3 st4">Param</text>
 	</g>
-	<rect x="387" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="387" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(409.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.0967 15)" class="st4 st5">Value</text>
+		<text transform="matrix(1 0 0 1 7.0967 15)" class="st3 st4">Value</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M267,20h165v53.6"/>
-	<path pointer-events="none" class="st2" d="M432,78.9l-3.5-7l3.5,1.8l3.5-1.8L432,78.9z"/>
-	<path pointer-events="none" class="st1" d="M389,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M554,79l-3.5-7l3.5,1.8l3.5-1.8L554,79z"/>
-	<rect x="509" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M267,20h165v53.6"/>
+	<path pointer-events="none" class="st1" d="M432,78.9l-3.5-7l3.5,1.8l3.5-1.8L432,78.9z"/>
+	<path pointer-events="none" class="st0" d="M389,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M554,79l-3.5-7l3.5,1.8l3.5-1.8L554,79z"/>
+	<rect x="509" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(514.5,90.5)">
-		<text transform="matrix(1 0 0 1 12.9932 15)" class="st4 st5">Comment</text>
+		<text transform="matrix(1 0 0 1 12.9932 15)" class="st3 st4">Comment</text>
 	</g>
-	<rect x="267" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="267" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(284.5,90.5)">
-		<text transform="matrix(1 0 0 1 8.9912 15)" class="st4 st5">Return</text>
+		<text transform="matrix(1 0 0 1 8.9912 15)" class="st3 st4">Return</text>
 	</g>
-	<rect x="267" y="150" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="267" y="150" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(264.5,160.5)">
-		<text transform="matrix(1 0 0 1 15.8691 15)" class="st4 st5">YieldReturn</text>
+		<text transform="matrix(1 0 0 1 15.8691 15)" class="st3 st4">YieldReturn</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M147,20h165v53.6"/>
-	<path pointer-events="none" class="st2" d="M312,78.9l-3.5-7l3.5,1.8l3.5-1.8L312,78.9z"/>
-	<path pointer-events="none" class="st1" d="M312,120v20v-10v13.6"/>
-	<path pointer-events="none" class="st2" d="M312,148.9l-3.5-7l3.5,1.8l3.5-1.8L312,148.9z"/>
-	<path pointer-events="none" class="st1" d="M2787,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M2951.9,79l-3.5-7l3.5,1.8l3.5-1.8L2951.9,79z"/>
-	<rect x="2907" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M147,20h165v53.6"/>
+	<path pointer-events="none" class="st1" d="M312,78.9l-3.5-7l3.5,1.8l3.5-1.8L312,78.9z"/>
+	<path pointer-events="none" class="st0" d="M312,120v20v-10v13.6"/>
+	<path pointer-events="none" class="st1" d="M312,148.9l-3.5-7l3.5,1.8l3.5-1.8L312,148.9z"/>
+	<path pointer-events="none" class="st0" d="M2787,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M2951.9,79l-3.5-7l3.5,1.8l3.5-1.8L2951.9,79z"/>
+	<rect x="2907" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(2930.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.3242 15)" class="st4 st5">Splat</text>
+		<text transform="matrix(1 0 0 1 7.3242 15)" class="st3 st4">Splat</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M2907,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3071.9,79l-3.5-7l3.5,1.8l3.5-1.8L3071.9,79z"/>
-	<rect x="3027" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M2907,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3071.9,79l-3.5-7l3.5,1.8l3.5-1.8L3071.9,79z"/>
+	<rect x="3027" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3029.5,90.5)">
-		<text transform="matrix(1 0 0 1 13.9805 15)" class="st4 st5">Expansion</text>
+		<text transform="matrix(1 0 0 1 13.9805 15)" class="st3 st4">Expansion</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3027,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3191.9,79l-3.5-7l3.5,1.8l3.5-1.8L3191.9,79z"/>
-	<rect x="3147" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3027,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3191.9,79l-3.5-7l3.5,1.8l3.5-1.8L3191.9,79z"/>
+	<rect x="3147" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3168.5,90.5)">
-		<text transform="matrix(1 0 0 1 7.9971 15)" class="st4 st5">While</text>
+		<text transform="matrix(1 0 0 1 7.9971 15)" class="st3 st4">While</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3147,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3311.9,79l-3.5-7l3.5,1.8l3.5-1.8L3311.9,79z"/>
-	<rect x="3267" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3147,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3311.9,79l-3.5-7l3.5,1.8l3.5-1.8L3311.9,79z"/>
+	<rect x="3267" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3299.5,90.5)">
-		<text transform="matrix(1 0 0 1 3.9961 15)" class="st4 st5">Op</text>
+		<text transform="matrix(1 0 0 1 3.9961 15)" class="st3 st4">Op</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3267,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3431.9,79l-3.5-7l3.5,1.8l3.5-1.8L3431.9,79z"/>
-	<rect x="3387" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3267,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3431.9,79l-3.5-7l3.5,1.8l3.5-1.8L3431.9,79z"/>
+	<rect x="3387" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3423.5,90.5)">
-		<text transform="matrix(1 0 0 1 2.9961 15)" class="st4 st5">In</text>
+		<text transform="matrix(1 0 0 1 2.9961 15)" class="st3 st4">In</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3387,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3551.9,79l-3.5-7l3.5,1.8l3.5-1.8L3551.9,79z"/>
-	<rect x="3507" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3387,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3551.9,79l-3.5-7l3.5,1.8l3.5-1.8L3551.9,79z"/>
+	<rect x="3507" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3538.5,90.5)">
-		<text transform="matrix(1 0 0 1 4.5566 15)" class="st4 st5">Try</text>
+		<text transform="matrix(1 0 0 1 4.5566 15)" class="st3 st4">Try</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3507,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3671.9,79l-3.5-7l3.5,1.8l3.5-1.8L3671.9,79z"/>
-	<rect x="3627" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3507,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3671.9,79l-3.5-7l3.5,1.8l3.5-1.8L3671.9,79z"/>
+	<rect x="3627" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3646.5,90.5)">
-		<text transform="matrix(1 0 0 1 8.3301 15)" class="st4 st5">Throw</text>
+		<text transform="matrix(1 0 0 1 8.3301 15)" class="st3 st4">Throw</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3627,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3791.9,79l-3.5-7l3.5,1.8l3.5-1.8L3791.9,79z"/>
-	<rect x="3747" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3627,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3791.9,79l-3.5-7l3.5,1.8l3.5-1.8L3791.9,79z"/>
+	<rect x="3747" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3752.5,90.5)">
-		<text transform="matrix(1 0 0 1 12.9873 15)" class="st4 st5">Existence</text>
+		<text transform="matrix(1 0 0 1 12.9873 15)" class="st3 st4">Existence</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3747,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M3911.9,79l-3.5-7l3.5,1.8l3.5-1.8L3911.9,79z"/>
-	<path pointer-events="none" class="st1" d="M3912,120v33.6"/>
-	<path pointer-events="none" class="st2" d="M3912,158.9l-3.5-7l3.5,1.8l3.5-1.8L3912,158.9z"/>
-	<rect x="3867" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3747,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M3911.9,79l-3.5-7l3.5,1.8l3.5-1.8L3911.9,79z"/>
+	<path pointer-events="none" class="st0" d="M3912,120v33.6"/>
+	<path pointer-events="none" class="st1" d="M3912,158.9l-3.5-7l3.5,1.8l3.5-1.8L3912,158.9z"/>
+	<rect x="3867" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3882.5,90.5)">
-		<text transform="matrix(1 0 0 1 9.9893 15)" class="st4 st5">Parens</text>
+		<text transform="matrix(1 0 0 1 9.9893 15)" class="st3 st4">Parens</text>
 	</g>
-	<rect x="3842" y="160" pointer-events="none" class="st3" width="140" height="40"/>
+	<rect x="3842" y="160" pointer-events="none" class="st2" width="140" height="40"/>
 	<g transform="translate(3815.5,170.5)">
-		<text transform="matrix(1 0 0 1 32.3027 15)" class="st4 st5">StringWithInterpolations</text>
+		<text transform="matrix(1 0 0 1 32.3027 15)" class="st3 st4">StringWithInterpolations</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3867,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M4031.9,79l-3.5-7l3.5,1.8l3.5-1.8L4031.9,79z"/>
-	<rect x="3987" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3867,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M4031.9,79l-3.5-7l3.5,1.8l3.5-1.8L4031.9,79z"/>
+	<rect x="3987" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(4015.5,90.5)">
-		<text transform="matrix(1 0 0 1 5.6641 15)" class="st4 st5">Call</text>
+		<text transform="matrix(1 0 0 1 5.6641 15)" class="st3 st4">Call</text>
 	</g>
-	<rect x="3147" y="160" pointer-events="none" class="st3" width="90" height="40"/>
+	<rect x="3147" y="160" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(3177.5,170.5)">
-		<text transform="matrix(1 0 0 1 5 15)" class="st4 st5">For</text>
+		<text transform="matrix(1 0 0 1 5 15)" class="st3 st4">For</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M3192,120v33.6"/>
-	<path pointer-events="none" class="st2" d="M3192,158.9l-3.5-7l3.5,1.8l3.5-1.8L3192,158.9z"/>
-	<path pointer-events="none" class="st1" d="M3987,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M4152,79l-3.5-7l3.5,1.8l3.5-1.8L4152,79z"/>
-	<rect x="4107" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M3192,120v33.6"/>
+	<path pointer-events="none" class="st1" d="M3192,158.9l-3.5-7l3.5,1.8l3.5-1.8L3192,158.9z"/>
+	<path pointer-events="none" class="st0" d="M3987,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M4152,79l-3.5-7l3.5,1.8l3.5-1.8L4152,79z"/>
+	<rect x="4107" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(4124.5,90.5)">
-		<text transform="matrix(1 0 0 1 9.3281 15)" class="st4 st5">Switch</text>
+		<text transform="matrix(1 0 0 1 9.3281 15)" class="st3 st4">Switch</text>
 	</g>
-	<path pointer-events="none" class="st1" d="M4107,20h165l0,53.7"/>
-	<path pointer-events="none" class="st2" d="M4272,79l-3.5-7l3.5,1.8l3.5-1.8L4272,79z"/>
-	<rect x="4227" y="80" pointer-events="none" class="st3" width="90" height="40"/>
+	<path pointer-events="none" class="st0" d="M4107,20h165v53.7"/>
+	<path pointer-events="none" class="st1" d="M4272,79l-3.5-7l3.5,1.8l3.5-1.8L4272,79z"/>
+	<rect x="4227" y="80" pointer-events="none" class="st2" width="90" height="40"/>
 	<g transform="translate(4266.5,90.5)">
-		<text transform="matrix(1 0 0 1 1.666 15)" class="st4 st5">If</text>
+		<text transform="matrix(1 0 0 1 1.666 15)" class="st3 st4">If</text>
 	</g>
 </g>
 </svg>
